@@ -81,7 +81,9 @@ cat > "$CONFIG" <<EOF
     { "protocol": "blackhole", "tag": "block" }
   ],
   "routing": {
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
+      { "type": "field", "domain": ["geosite:cn"], "outboundTag": "block" },
       { "type": "field", "ip": ["geoip:cn", "geoip:private"], "outboundTag": "block" }
     ]
   }
