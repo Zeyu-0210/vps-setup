@@ -1,0 +1,9 @@
+# setup.sh 生成或下载的东西，不进仓库
+.build/
+Frameworks/
+Resources/
+*.xcodeproj/
+App/Info.plist
+Tunnel/Info.plist
+*.entitlements
+xcuserdata/
