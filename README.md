@@ -94,6 +94,13 @@ PORT=8443 SNI=www.apple.com bash <(curl -fsSL https://raw.githubusercontent.com/
 
 ---
 
+## 自己的 iPhone App（以后再做）
+
+[`ios-app/`](./ios-app) 里是一个只给自己用的 iPhone VPN App 的代码和完整操作步骤：导入 `vless://` 链接，一键连接，国内网站直连。
+需要 Xcode 和付费的 Apple 开发者账号（约 A$149/年），现在用 Shadowrocket 就够了。
+
+---
+
 ## 注意
 
 - **不要把 `vless://` 链接发到这个仓库、群聊或任何公开的地方**，拿到链接的人都能用你的服务器。
